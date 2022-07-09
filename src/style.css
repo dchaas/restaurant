@@ -79,3 +79,25 @@ body {
     display: block;
     grid-column: 2/3;
 }
+
+.navbar {
+    display: flex;
+    background-color: rgba(247, 197, 197, 0.6);
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    gap: 15px;
+}
+
+button {
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgba(247, 197, 197, 0.0);
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(247, 197, 197);
+    color: black;
+}

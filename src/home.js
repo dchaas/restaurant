@@ -1,7 +1,7 @@
 import './style.css';
 import Pizza from './pizza.jpg';
 
-function loadPage() {
+function loadHome() {
     const element = document.querySelector('#content');
 
     const header = document.createElement('header');
@@ -43,4 +43,4 @@ function loadPage() {
 
 }
 
-export default loadPage;
+export default loadHome;
