@@ -1,4 +1,3 @@
-import './style.css';
 import Pizza from './pizza.jpg';
 
 function loadHome() {
@@ -38,9 +37,6 @@ function loadHome() {
     element.appendChild(tag);
     element.appendChild(hrs);
     // element.appendChild(imgPizza);
-
-
-
 }
 
 export default loadHome;
